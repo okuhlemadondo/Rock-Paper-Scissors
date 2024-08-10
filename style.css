@@ -1,0 +1,126 @@
+@font-face {
+  font-family: "GTL001";
+  src: url("assets/fonts/GTL001.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gulax-Regular";
+  src: url("assets/fonts/Gulax-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  overflow: hidden;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 30vw;
+  height: 75vh;
+}
+
+.title {
+  display: flex;
+  color: rgb(0, 0, 0);
+  font-family: GTL001;
+  font-size: 80px;
+  padding: 30px;
+  min-height: 10vh;
+  align-content: center;
+  justify-content: center;
+}
+
+.scores {
+  height: 60%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.score-container {
+  display: flex;
+  height: 80%;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+#avatar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  min-width: 130px;
+  width: 25%;
+}
+
+.avatar-image {
+  height: 65%;
+}
+
+#avatar-name {
+  margin-block: 25px;
+  font-family: Gulax-Regular;
+  font-size: 30px;
+}
+
+#score {
+  display: flex;
+  height: 80px;
+  min-width: 150px;
+  margin-inline: 10%;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.restart {
+  min-height: 2vh;
+}
+
+button {
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.rock,
+.paper,
+.scissors {
+  width: 70px;
+  height: 70px;
+}
+
+#choice-prompt {
+  padding: 15px;
+  font-family: Gulax-Regular;
+  font-size: 30px;
+}
+
+#restart {
+  margin: 15px;
+  padding: 15px;
+  font-family: Gulax-Regular;
+  font-size: 20px;
+}

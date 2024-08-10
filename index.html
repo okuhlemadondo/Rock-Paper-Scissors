@@ -3,8 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Rock Paper Scissors</title>
     <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="assets/rps_favicon.png" />
   </head>
-  <body></body>
+  <body>
+    <div class="title">Rock, Paper, Scissors!!!</div>
+    <div class="game-container">
+      <div class="scores">
+        <div class="score-container">
+          <div id="avatar">
+            <img src="assets/person_icon.png" class="avatar-image" />
+            <div id="avatar-name">YOU</div>
+          </div>
+          <div id="score"></div>
+          <div id="avatar">
+            <img src="assets/robot_icon.png" class="avatar-image" />
+            <div id="avatar-name">BOT</div>
+          </div>
+        </div>
+      </div>
+      <div class="buttons">
+        <button>
+          <img src="assets/rock-removebg-preview.svg" class="rock" />
+        </button>
+        <button>
+          <img src="assets/paper-removebg-preview.svg" class="paper" />
+        </button>
+        <button>
+          <img src="assets/scissors-removebg-preview.svg" class="scissors" />
+        </button>
+      </div>
+      <div id="choice-prompt">Choose: Rock, Paper, or Scissors</div>
+      <div class="restart">
+        <button id="restart">Restart</button>
+      </div>
+    </div>
+  </body>
 </html>
