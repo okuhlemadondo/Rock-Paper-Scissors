@@ -1,15 +1,11 @@
 @font-face {
   font-family: "GTL001";
   src: url("assets/fonts/GTL001.woff2") format("woff2");
-  font-weight: normal;
-  font-style: normal;
 }
 
 @font-face {
   font-family: "Gulax-Regular";
   src: url("assets/fonts/Gulax-Regular.woff2") format("woff2");
-  font-weight: normal;
-  font-style: normal;
 }
 
 html {
