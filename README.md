@@ -60,7 +60,7 @@ Open the index.html file in your preferred browser:
 ## Project Structure
 ```
 /assets # Images and fonts used in the game
-/fonts # Custom fonts
+  /fonts # Custom fonts
 /style.css # Main CSS file for styling the game
 /index.html # Main HTML file
 /script.js # JavaScript file for game logic
