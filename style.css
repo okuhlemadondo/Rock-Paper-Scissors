@@ -20,6 +20,12 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.954), rgba(0, 0, 0, 0.929)),
+    url("assets/4521145.jpg");
+  background-size: cover; /* Make sure the image covers the entire background */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-position: center center; /* Center the image */
+  background-attachment: fixed; /* Keep the background fixed during scroll */
 }
 
 .game-container {
@@ -33,7 +39,7 @@ body {
 
 .title {
   display: flex;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-family: GTL001;
   font-size: 80px;
   padding: 30px;
@@ -71,19 +77,26 @@ body {
 
 .avatar-image {
   height: 65%;
+  filter: invert();
 }
 
 #avatar-name {
   margin-block: 25px;
   font-family: Gulax-Regular;
   font-size: 30px;
+  color: white;
 }
 
 #score {
   display: flex;
+  justify-content: center;
+  align-items: center;
   height: 80px;
   min-width: 150px;
   margin-inline: 10%;
+  color: white;
+  font-family: Gulax-Regular;
+  font-size: 70px;
 }
 
 .buttons {
@@ -94,6 +107,9 @@ body {
 
 .restart {
   min-height: 2vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 button {
@@ -103,6 +119,12 @@ button {
   border-radius: 20px;
   color: rgb(0, 0, 0);
   cursor: pointer;
+  background-color: rgb(161, 161, 161);
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: rgb(255, 255, 255);
 }
 
 .rock,
@@ -116,6 +138,7 @@ button {
   padding: 15px;
   font-family: Gulax-Regular;
   font-size: 30px;
+  color: white;
 }
 
 #restart {
