@@ -93,10 +93,4 @@ Open a pull request.
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgments
-
-FontAwesome for icons.
-Unsplash for the background images.
-Any other tools, libraries, or tutorials.
+This project is licensed under the MIT License
