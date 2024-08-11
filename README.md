@@ -19,7 +19,7 @@ Built in Vanilla JavaScript, CSS, and HTML.
 
 ## Demo
 
-Here is the Live Demo
+Here is the [Live Demo][okuhlemadondo.github.io/Rock-Paper-Scissors/]
 
 ## Features
 
