@@ -6,16 +6,16 @@ Built in Vanilla JavaScript, CSS, and HTML.
 
 ## Table of Contents
 
-[Demo](#demo)
-[Features](#features)
-[Installation](#installations)
-[Usage](#usage)
-[Game Rules](#game-rules)
-[Project Structure](#project-structure)
-[Technologies Used](#technologies-used)
-[Contributing](#contributing)
-[License](#license)
-[Acknowledgments](#acknoledgments)
+- [Demo](#demo)
+- [Features](#features)
+- [Installation](#installations)
+- [Usage](#usage)
+- [Game Rules](#game-rules)
+- [Project Structure](#project-structure)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgments](#acknoledgments)
 
 ## Demo
 
@@ -58,13 +58,13 @@ Open the index.html file in your preferred browser:
 - The game is played over 3 rounds, and the player with the most wins is declared the winner.
 
 ## Project Structure
-
+```
 /assets # Images and fonts used in the game
 /fonts # Custom fonts
 /style.css # Main CSS file for styling the game
 /index.html # Main HTML file
 /script.js # JavaScript file for game logic
-
+```
 ## Technologies Used
 
 - HTML5: Markup language to structure the game.
